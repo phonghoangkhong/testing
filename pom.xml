@@ -13,6 +13,8 @@
         <scala.version>2.12</scala.version> <!-- Scala 2.12 phù hợp với Spark 3.x -->
         <kafka.version>3.8.0</kafka.version>
         <hadoop.version>3.0.0</hadoop.version> <!-- Chạy trên Windows cần WinUtils -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
@@ -128,5 +130,10 @@
                 </executions>
             </plugin>
         </plugins>
+
     </build>
+
+
+
+
 </project>

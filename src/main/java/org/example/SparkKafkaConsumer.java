@@ -44,7 +44,7 @@ public class SparkKafkaConsumer {
                 .format("console") // Xuất ra console
                 .start();
 
-          .start();
+
 
         query.awaitTermination();
     }
