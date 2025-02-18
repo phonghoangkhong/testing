@@ -20,6 +20,7 @@ public class SparkKafkaConsumer {
 
         // Khởi tạo SparkSession
         SparkSession spark = SparkSession.builder().appName("Testing Spark Consumer")
+                .master("spark://spark-master:7077")
                 .config("deploy-mode", "client")
                .getOrCreate();
         SparkContext sc = spark.sparkContext();
