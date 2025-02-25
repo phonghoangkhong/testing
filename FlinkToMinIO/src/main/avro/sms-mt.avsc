@@ -1,0 +1,218 @@
+{
+	"type": "record",
+	"name": "Value",
+	"namespace": "DEMO.B2B_SMS.dbo.SMS_MT",
+	"fields": [
+		{
+			"name": "MT_ID",
+			"type": "string"
+		},
+		{
+			"name": "MO_ID",
+			"type": [
+				"null",
+				"int"
+			],
+			"default": null
+		},
+		{
+			"name": "UserID",
+			"type": "string"
+		},
+		{
+			"name": "ReceiverUserID",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "ServiceID",
+			"type": "string"
+		},
+		{
+			"name": "CommandCode",
+			"type": "string"
+		},
+		{
+			"name": "Message",
+			"type": "string"
+		},
+		{
+			"name": "RequestID",
+			"type": "int"
+		},
+		{
+			"name": "MsgType",
+			"type": {
+				"type": "int",
+				"connect.type": "int16"
+			}
+		},
+		{
+			"name": "ContentType",
+			"type": "int"
+		},
+		{
+			"name": "RequestTime",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "ResponseTime",
+			"type": {
+				"type": "long",
+				"connect.version": 1,
+				"connect.name": "io.debezium.time.Timestamp"
+			}
+		},
+		{
+			"name": "MessageId",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "ResponseStatus",
+			"type": "int"
+		},
+		{
+			"name": "IsCDR",
+			"type": {
+				"type": "int",
+				"connect.type": "int16"
+			}
+		},
+		{
+			"name": "TemplateID",
+			"type": "string"
+		},
+		{
+			"name": "APIReturnMessage",
+			"type": "string"
+		},
+		{
+			"name": "TelCo",
+			"type": "string"
+		},
+		{
+			"name": "SMS_ID",
+			"type": "string"
+		},
+		{
+			"name": "MsgCount",
+			"type": "int"
+		},
+		{
+			"name": "Priority",
+			"type": "int"
+		},
+		{
+			"name": "RetryCount",
+			"type": "int"
+		},
+		{
+			"name": "CustomerID",
+			"type": "string"
+		},
+		{
+			"name": "ProviderID",
+			"type": "string"
+		},
+		{
+			"name": "ActualConnection",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "Connection",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "AppID",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "CallbackStatus",
+			"type": "int"
+		},
+		{
+			"name": "ClientIP",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "DataSource",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "RefID",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "CounterId",
+			"type": "long"
+		},
+		{
+			"name": "TriedTelco",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "IsMNP",
+			"type": [
+				"null",
+				"boolean"
+			],
+			"default": null
+		},
+		{
+			"name": "__deleted",
+			"type": [
+				"null",
+				"string"
+			],
+			"default": null
+		},
+		{
+			"name": "__ts_ms",
+			"type": [
+				"null",
+				"long"
+			],
+			"default": null
+		}
+	],
+	"connect.name": "DEMO.B2B_SMS.dbo.SMS_MT.Value"
+}
